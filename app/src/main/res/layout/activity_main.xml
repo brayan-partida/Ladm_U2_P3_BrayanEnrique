@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/estadoJ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="TextView"
+
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/puntajeJ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/estadoJ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="TextView"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/puntajeJ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/estadoJ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+
+            android:text="TextView"
+
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/puntajeJ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/estadoJ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+
+            android:text="TextView"
+
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/puntajeJ1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:padding="4dp"
+
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dados"
+            android:text="Jugar"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+</LinearLayout>
